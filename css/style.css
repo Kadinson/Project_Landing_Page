@@ -83,3 +83,20 @@ h2{
     padding: 15px 20px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+#quote_text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+}
+#signature {
+    align-self: flex-end;
+}
