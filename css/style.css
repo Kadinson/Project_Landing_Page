@@ -1,6 +1,15 @@
-*{
-    border: solid red;
-}
+
+
 header, footer{
-    background-color: #1F2937;  
+    background-color: #1F2937;
+    display:flex;
+}
+header{
+    flex-direction: column;
+}
+header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+    border: solid;
+    width: 100px;
 }
