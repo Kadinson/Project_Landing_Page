@@ -100,3 +100,27 @@ h2{
 #signature {
     align-self: flex-end;
 }
+.join_us{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+.call{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.call .Sign{
+    border: solid 1px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
