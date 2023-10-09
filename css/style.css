@@ -26,3 +26,15 @@ header{
     text-decoration: none;
     margin-top: auto;
 }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+h1{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
