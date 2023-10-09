@@ -3,22 +3,26 @@
 header, footer{
     background-color: #1F2937;
     display:flex;
+    padding: 30px;
 }
+
 header{
     flex-direction: column;
 }
+
 .navbar{
     display: flex;
     justify-content: flex-start;
     gap: 5px;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
+
 #logo {
     font-size: 24px;
     color: #F9FAF8;
     width: auto;
     margin: auto;
+    margin-left: 0;
 }
 
 .navbar a{
@@ -32,9 +36,49 @@ header{
     align-items: center;
     color: #E5E7EB;
     font-size: 18px;
+    flex: 1;
 }
+
 h1{
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 48px;
+}
+.Sign{
+    padding:3px 20px;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+#picture{
+    background-color: rgb(255, 255 , 255 , 0.3);
+    border: solid;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+
+.information{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.illustration{
+    text-align: center;
+}
+.illustration a{
+    border: solid blue 1px;
+    border-radius: 5px;
+    padding: 15px 20px;
 }
